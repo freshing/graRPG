@@ -1,10 +1,13 @@
+#include "Game.h"
+
 #include <iostream>
 
 using namespace std;
 
 int main()
 {
+	Game game;
+	game.runGame();
 
-	system("pause");
 	return 0;
 }
